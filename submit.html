@@ -1,9 +1,66 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <h1 style="text-align: center;">Submitted successfully!</h1>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Successful!</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #fceabb, #f8b500);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: #4b2e05;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4b2e05;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.3em;
+            color: #5a3e00;
+        }
+
+        .emoji {
+            font-size: 3em;
+            animation: bounce 1.2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            background-color: #8b5a2b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #a76b3c;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="emoji">😊🎉</div>
+    <h1>Submitted Successfully!</h1>
+    <p>Thank you for signing up, your details have been received!</p>
+    <a href="Naresh Portfolio.html">⬅ Back to Portfolio</a>
 </body>
 </html>

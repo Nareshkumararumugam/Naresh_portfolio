@@ -1,0 +1,113 @@
+/* General Page Styling */
+body {
+    background-color: rgb(233, 211, 183);
+    border: solid 3px saddlebrown;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #4b2e05;
+    font-size: 2.2em;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #4b2e05;
+}
+
+/* Paragraphs and Text */
+p {
+    font-size: 1.1em;
+    margin: 8px 0;
+    color: #2f2100;
+}
+
+strong {
+    color: #4b2e05;
+}
+
+/* Links */
+a {
+    color: #5b3a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9b5d00;
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse:separate;
+    margin-top: 15px;
+    background-color: #fff5e6;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4b2e05;
+    margin-bottom: 8px;
+}
+
+td {
+    border: 1px solid #c49a6c;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Form Styling */
+fieldset {
+    border: 2px solid #8b5a2b;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f8e7d0;
+}
+
+legend {
+    font-weight: bold;
+    color: #4b2e05;
+    padding: 0 8px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    color: #2f2100;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 6px;
+    border: 1px solid #8b5a2b;
+    border-radius: 5px;
+    width: 60%;
+}
+
+input[type="submit"] {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #a76b3c;
+}
