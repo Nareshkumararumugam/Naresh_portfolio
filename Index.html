@@ -1,13 +1,107 @@
-<fieldset>
-    <legend>Sign up</legend>
-<form action="Naresh Portfolio.html" target="_blank">
-    <label>Name:</label>
-    <input type="text" required="">
-    <br><br>
-    <label>Contact:</label>
-    <input type="number" required="">
-    <br><br>
-    <input type="submit">
-</form>
-</fieldset>
-<form action="Naresh Portfolio.html" target="_blank">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Naresh Portfolio</title>
+  <style>
+    body {
+      background-color: rgb(233, 211, 183);
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      border: solid 3px saddlebrown;
+    }
+
+    h1 {
+      color: saddlebrown;
+      text-shadow: 1px 1px 2px #a67c52;
+      margin-bottom: 20px;
+    }
+
+    fieldset {
+      background-color: #fff8f0;
+      border: 2px solid saddlebrown;
+      border-radius: 15px;
+      padding: 30px 50px;
+      box-shadow: 5px 5px 15px rgba(120, 72, 32, 0.3);
+    }
+
+    legend {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: saddlebrown;
+      padding: 0 10px;
+    }
+
+    label {
+      font-size: 1.1em;
+      color: #5c4033;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #b08968;
+      font-size: 1em;
+      background-color: #fdf5ee;
+      transition: all 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="number"]:focus {
+      border-color: saddlebrown;
+      outline: none;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(139, 69, 19, 0.3);
+    }
+
+    input[type="submit"] {
+      margin-top: 15px;
+      background-color: saddlebrown;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #8b4513;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #5c4033;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Portfolio</h1>
+
+  <fieldset>
+    <legend>Sign Up</legend>
+    <form action="Naresh Portfolio.html" target="_blank">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="contact">Contact:</label><br>
+      <input type="number" id="contact" name="contact" required><br><br>
+
+      <input type="submit" value="Go to Portfolio">
+    </form>
+  </fieldset>
+
+
+</body>
+</html>
